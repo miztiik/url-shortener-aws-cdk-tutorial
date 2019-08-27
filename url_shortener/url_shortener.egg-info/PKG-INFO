@@ -5,7 +5,10 @@ Summary: An empty CDK Python app
 Home-page: UNKNOWN
 Author: author
 License: UNKNOWN
-Description: 
+Description: # README.md
+        
+        Ref: https://www.youtube.com/watch?v=ZWCvNFUN-sU
+        
         # Welcome to your CDK Python project!
         
         This is a blank project for Python development with CDK.
