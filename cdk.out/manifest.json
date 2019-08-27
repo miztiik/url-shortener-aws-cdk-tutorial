@@ -1,0 +1,50 @@
+{
+  "version": "0.36.0",
+  "artifacts": {
+    "url-shortener": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "url-shortener.template.json"
+      },
+      "metadata": {
+        "/url-shortener/mapping-table/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mappingtable5416B587",
+            "trace": [
+              "new Table (/private/var/folders/jd/s2vx6nq561ncxw1_bq60y52c0000gn/T/jsii-kernel-67FbPR/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:49:22)",
+              "obj._wrapSandboxCode (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:49)",
+              "Kernel._wrapSandboxCode (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7131:20)",
+              "Kernel._create (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:26)",
+              "Kernel.create (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6419:21)",
+              "KernelHost.processRequest (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6191:28)",
+              "KernelHost.run (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "processRequest (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45)",
+              "KernelHost.processRequest (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "processRequest (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45)",
+              "KernelHost.processRequest (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "processRequest (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45)",
+              "promise.then.val (/Users/metta/Dropbox/Code/__sandpit__/url-shortener/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6218:21)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cx-api": "1.5.0",
+      "@aws-cdk/core": "1.5.0",
+      "@aws-cdk/region-info": "1.5.0",
+      "@aws-cdk/aws-iam": "1.5.0",
+      "@aws-cdk/aws-autoscaling-common": "1.5.0",
+      "@aws-cdk/aws-cloudwatch": "1.5.0",
+      "@aws-cdk/aws-applicationautoscaling": "1.5.0",
+      "@aws-cdk/aws-dynamodb": "1.5.0",
+      "jsii-runtime": "Python/3.7.2"
+    }
+  }
+}
