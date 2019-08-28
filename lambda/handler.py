@@ -44,7 +44,7 @@ def create_short_url(event):
     })
 
     url = "https://" \
-          + event["requestContext"]["domainname"] \
+          + event["requestContext"]["domainName"] \
           + event["requestContext"]["path"] \
           + id
 
